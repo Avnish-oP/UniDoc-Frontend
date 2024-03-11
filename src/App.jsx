@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Signup from './components/Signup';
+import Login from './components/Login';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +11,8 @@ function App() {
   return (
     <>
       <div>
-        <h1 className='text-purple-600'>home page </h1>
+        <h1>homepage</h1>
+
       </div>
         
     </>
